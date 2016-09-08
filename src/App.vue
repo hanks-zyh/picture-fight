@@ -18,6 +18,7 @@
          flexBasis: (comment.w * 120 / comment.h) + 'px'}">
            <i :style=" { paddingBottom: (comment.h / comment.w * 100) +'%' }"></i>
            <img :src="comment.src"/>
+
          </div>
         </div>
     </div>
